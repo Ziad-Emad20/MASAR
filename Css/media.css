@@ -1,0 +1,35 @@
+/* as8ar mn 640 */
+
+/* sm */
+@media (min-width: 300px) {
+
+
+}
+
+
+
+@media (min-width: 540px) {
+
+}
+
+
+/* md */
+@media (min-width: 768px) {
+
+  
+
+
+}
+
+
+/* lg */
+@media (min-width: 1024px) {
+  
+
+}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* lg */
+@media (min-width: 1536px) {}
