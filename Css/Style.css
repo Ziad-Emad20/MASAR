@@ -3,8 +3,8 @@
     --mainColor_2: #762DC4;
     --mainColor_3: #000000;
     --mainColor_4: #ffffff;
-    --backGroundNavTop: #1c1e1f81;
-    --backGroundNavMiddel: #5d5f5f63;
+    --backGroundNavTop: #1c1e1fa3;
+    --backGroundNavMiddel: #1c1e1f5c;
     /* Font Size */
     --FontSizeNavItem: 20px;
     /* Border Radius */
@@ -21,7 +21,7 @@
 /* Start Header */
 header {
     width: 100%;
-    height: 85vh;
+    height: 95vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/170014094459201.webp);
     background-repeat: no-repeat;
     background-position: center;
