@@ -95,15 +95,18 @@ nav ul li a {
 
 /* Overlay Text */
 header .overlay-text{
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 header .overlay-text h1{
     font-size: 50px;
     color: var(--mainColor_4);
 }
 header .overlay-text .btn-pdf_contact a{
-    color: var(--mainColor_4);
     background-color: #F6463E;
+    color: var(--mainColor_4);
     padding: 18px;
     border-radius: var(--buttonBorderRadius);
 }
