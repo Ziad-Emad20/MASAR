@@ -1,32 +1,119 @@
 /* as8ar mn 640 */
 
 /* sm */
-@media (min-width: 300px) {
+@media (min-width: 300px) and (max-width: 578px) {
+    header .left-nav-top .contact-nav {
+        display: none;
+    }
 
+    header .nav-top-page .container {
+        justify-content: center;
+    }
 
+    header .left-nav-top span {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    header .contact-nav-small a,
+    header .contact-nav-small .fa-bars {
+        display: block;
+    }
+
+    #navbarSmall {
+        background-color: var(--backGroundNavMiddel);
+    }
+
+    header .overlay-text h1 {
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    header .overlay-text {
+        padding-bottom: 5rem;
+    }
 }
 
 
+@media (min-width: 578px) and (max-width:768px) {
+    header .left-nav-top .contact-nav {
+        display: none;
+    }
 
-@media (min-width: 540px) {
+    header .nav-top-page .container {
+        justify-content: center;
+    }
+
+    header .left-nav-top span {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .contact-nav-small {
+        background-color: var(--backGroundNavMiddel);
+    }
+
+    header .contact-nav-small a,
+    header .contact-nav-small .fa-bars {
+        display: block;
+    }
+
+    #navbarSmall {
+        background-color: var(--backGroundNavMiddel);
+    }
 
 }
 
 
 /* md */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    header .left-nav-top .contact-nav {
+        display: none;
+    }
 
-  
+    header .nav-top-page .container {
+        justify-content: center;
+    }
 
+    header .left-nav-top span {
+        display: none;
+    }
 
+    header nav {
+        display: none;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    header .contact-nav-small a,
+    header .contact-nav-small .fa-bars {
+        display: block;
+    }
+
+    #navbarSmall {
+        background-color: var(--backGroundNavMiddel);
+    }
 }
 
 
 /* lg */
-@media (min-width: 1024px) {
-  
-
-}
+@media (min-width: 1024px) {}
 
 /* xl */
 @media (min-width: 1280px) {}

@@ -3,8 +3,8 @@
     --mainColor_2: #762DC4;
     --mainColor_3: #000000;
     --mainColor_4: #ffffff;
-    --backGroundNavTop: #1c1e1fa3;
-    --backGroundNavMiddel: #1c1e1f5c;
+    --backGroundNavTop: #1c1e1fca;
+    --backGroundNavMiddel: #1c1e1f70;
     /* Font Size */
     --FontSizeNavItem: 20px;
     /* Border Radius */
@@ -35,6 +35,10 @@ header .nav-top-page {
     padding: 0.5em;
 }
 
+header .nav-top-page .container {
+    justify-content: space-between;
+}
+
 header .nav-top-page .mav-logo {
     width: 200px;
 }
@@ -43,14 +47,22 @@ header .left-nav-top .contact-nav {
     margin-bottom: 1rem;
 }
 
-header .left-nav-top .contact-nav a {
+header .left-nav-top .contact-nav a, header .contact-nav-small a, header .contact-nav-small .fa-bars {
     color: var(--mainColor_4);
+    cursor: pointer;
+}
+
+header .contact-nav-small .fa-bars {
+    font-size: 25px;
+}
+
+header .contact-nav-small a, header .contact-nav-small .fa-bars {
+    display: none;
 }
 
 header .left-nav-top span {
     border-left: 3px solid var(--mainColor_4);
     height: 85%;
-    margin: 0 .9rem 0 1.5rem;
 }
 
 header .left-nav-top img {
@@ -58,12 +70,13 @@ header .left-nav-top img {
 }
 
 /* Nav Middel */
-header nav {
+header #navbar {
     background-color: var(--backGroundNavMiddel);
+    transition: .5s;
 }
 
 nav ul {
-    width: 60%;
+    width: 65%;
     list-style: none;
     margin: 0;
     padding: 1.3rem 0;
@@ -72,6 +85,23 @@ nav ul {
 nav ul li a {
     color: var(--mainColor_4);
     font-size: var(--FontSizeNavItem);
+    position: relative;
+}
+
+nav ul li a::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: var(--mainColor_1);
+    position: absolute;
+    top: 130%;
+    right: 50%;
+    transition: .5s;
+}
+
+nav ul li:hover a::before {
+    width: 130%;
+    transform: translate(50%);
 }
 
 .swing {
@@ -80,9 +110,32 @@ nav ul li a {
     font-size: 18px;
     padding: 10px 12px;
     border-radius: var(--buttonBorderRadius);
+    border: 2px solid var(--mainColor_4);
     animation: swing ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
     float: left;
+    transition: .5s;
+}
+
+.swing:hover {
+    color: var(--mainColor_4);
+    border-color: var(--mainColor_2);
+}
+
+.swing::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--mainColor_2);
+    z-index: -1;
+    transition: .5s;
+}
+
+.swing:hover::before {
+    width: 100%;
 }
 
 @keyframes swing {
@@ -118,4 +171,54 @@ header .overlay-text .btn-pdf_contact a {
 header .overlay-text .btn-pdf_contact .contact-link {
     background-color: var(--mainColor_2);
     padding: 18px 28px;
+}
+/* Side Nav */
+/* header .sideNavC {
+    width: 75%;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items :start;
+    padding-right: 3rem;
+    background-color: var(--backGroundNavTop);
+    font-size: 35px;
+    transform: translateX(-100%);
+    transition: .8s;
+} */
+
+#sideNav {
+    width: 75%;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items :start;
+    padding-right: 3rem;
+    background-color: var(--backGroundNavTop);
+    font-size: 35px;
+    transform: translateX(-100%);
+    transition: .8s;
+    /* overflow: hidden; */
+} 
+/* #sideNav:hover{
+    overflow: scroll;
+} */
+#sideNav ul li a:hover {
+    color: var(--mainColor_1);
+}
+#sideNav .fa-xmark{
+    color: var(--mainColor_1);
+    transition: .5s;
+}
+#sideNav .fa-xmark:hover{
+    color:red;
 }
