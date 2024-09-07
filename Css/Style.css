@@ -75,9 +75,17 @@ nav ul li a{
     100% { transform: rotate(-10deg); }
 }
 /* Overlay Text */
-header .overlay-text{
-    height: 100%;
-}
 header .overlay-text h1{
     font-size: 50px;
+    color: var(--mainColor_4);
+}
+header .overlay-text .btn-pdf_contact a{
+    color: var(--mainColor_4);
+    background-color: #F6463E;
+    padding: 18px;
+    border-radius: var(--buttonBorderRadius);
+}
+header .overlay-text .btn-pdf_contact .contact-link{
+    background-color: var(--mainColor_2);
+    padding: 18px 28px;
 }
