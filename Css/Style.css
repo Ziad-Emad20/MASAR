@@ -21,10 +21,12 @@
 /* Start Header */
 header {
     width: 100%;
-    height: 95vh;
-    background-image: url('https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=600');
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/170014094459201.webp);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+
 }
 
 /* Nav Top */
@@ -94,23 +96,26 @@ nav ul li a {
 }
 
 /* Overlay Text */
-header .overlay-text{
+header .overlay-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-header .overlay-text h1{
+
+header .overlay-text h1 {
     font-size: 50px;
     color: var(--mainColor_4);
 }
-header .overlay-text .btn-pdf_contact a{
+
+header .overlay-text .btn-pdf_contact a {
     background-color: #F6463E;
     color: var(--mainColor_4);
     padding: 18px;
     border-radius: var(--buttonBorderRadius);
 }
-header .overlay-text .btn-pdf_contact .contact-link{
+
+header .overlay-text .btn-pdf_contact .contact-link {
     background-color: var(--mainColor_2);
     padding: 18px 28px;
 }
