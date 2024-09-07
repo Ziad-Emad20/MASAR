@@ -28,23 +28,24 @@
   <header>
     <!-- Nav Top -->
     <div class="nav-top-page">
-      <div class="container d-flex justify-content-between">
+      <div class="container d-flex">
         <!-- Logo Nav -->
-        <img class="mav-logo" src="https://moltaqa.net/uploads/settings/168284585646826.webp" width="100px" alt="Logo">
+        <a href="#الصفحة الرئيسية"><img class="mav-logo ms-1"
+            src="https://moltaqa.net/uploads/settings/168284585646826.webp" width="100px" alt="Logo"></a>
         <div class="left-nav-top d-flex align-items-center">
-          <div class="contact-nav">
+          <div class="contact-nav ms-3">
             <!-- Contact email or phone -->
             <a href="tel:+20 1225699265">01225699265 <i class="fa-solid fa-phone-flip"></i></a>
-            <a href="mailto:ziaemad0111@gmail.com" class="me-4">info@masar <i
-                class="fa-regular fa-envelope me-1 "></i></a>
+            <a href="mailto:ziaemad0111@gmail.com" class="me-4">info@masar
+              <i class="fa-regular fa-envelope me-1 "></i></a>
           </div>
           <span></span>
-          <img src="https://moltaqa.net/assets/site/images/vision.webp" width="50px" alt="image2030">
+          <img src="https://moltaqa.net/assets/site/images/vision.webp" class="me-4" alt="image2030">
         </div>
       </div>
     </div>
     <!-- Nav Middel -->
-    <nav class="">
+    <nav id="navbar">
       <div class="container d-flex justify-content-between align-items-center">
         <ul class="d-flex justify-content-between align-items-center">
           <li><a href="#الرئيسية">الرئيسية</a></li>
@@ -58,6 +59,28 @@
           مجانية</a>
       </div>
     </nav>
+    <!-- Side nav -->
+    <nav id="sideNav">
+      <i class="fa-solid fa-xmark" id="closeSide"></i>  
+      <ul>
+          <li><a href="#الرئيسية">الرئيسية</a></li>
+          <li><a href="#من نحن">من نحن</a></li>
+          <li><a href="#خدماتنا">خدماتنا</a></li>
+          <li><a href="#منتجاتنا">منتجاتنا</a></li>
+          <li><a href="#اتصل بنا">اتصل بنا</a></li>
+          <li><a href="#العروض">العروض</a></li>
+        </ul>
+        <a href="#استشاره مجانية" class="free-link swing"><i class="fa-solid fa-hand-holding-dollar ms-1"></i>استشاره
+          مجانية</a>
+    </nav>
+    <!-- Contact email and phone and sideNav -->
+    <div id="navbarSmall" class="contact-nav-small py-2 d-flex justify-content-center">
+      <i class="fa-solid fa-bars ms-4" id="openSide"></i>
+      <a href="tel:+20 1225699265"><i class="fa-solid fa-phone-flip"></i>01225699265 </a>
+      <a href="mailto:ziaemad0111@gmail.com" class="me-3">info@masar
+        <i class="fa-regular fa-envelope me-1 "></i></a>
+    </div>
+    <!-- Overlay Text -->
     <div class="overlay-text container">
       <div class="text-inner row">
         <h1 class="col-md-4">حول فكرتك لواقع ملموس</h1>
