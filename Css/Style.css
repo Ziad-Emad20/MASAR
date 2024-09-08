@@ -2,8 +2,15 @@
     --mainColor_1: #F6463E;
     --mainColor_2: #762DC4;
     --mainColor_3: #000000;
+    --headtitle: rgb(57, 57, 57);
+    --Ptitle: rgb(77, 77, 77);
     --mainColor_4: #ffffff;
+    --tapColor:
+        rgb(190, 190, 190);
+    --footerColor: rgb(209, 193, 228);
+    --footerColor2: rgb(237, 235, 239);
     --bgForm: #F1F1F1;
+    --ColorBorder: #eee;
     --backGroundNavTop: #1c1e1fca;
     --backGroundNavMiddel: #1c1e1f70;
     /* Font Size */
@@ -18,6 +25,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Cairo", sans-serif;
 }
 
 /* .container {
@@ -183,6 +191,54 @@ header .overlay-text .btn-pdf_contact .contact-link {
     padding: 18px 28px;
 }
 
+
+/*=======  start who are you======*/
+.iconName {
+    display: none;
+}
+
+.digetailimg:hover .icon-name {
+    display: block;
+}
+
+.specialty img {
+    width: 30px;
+}
+
+
+.titleArr {
+    color: var(--headtitle);
+}
+
+.pTitle {
+    color: var(--Ptitle);
+}
+
+.titleArr::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+    width: 50px;
+    height: 5px;
+    border-radius: 25px;
+    background-color: var(--mainColor_2);
+
+}
+
+.AboutProject {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ContactFooter li {
+    list-style: none;
+}
+
+
+
+
+
+
 /* Side Nav */
 
 #sideNav {
@@ -256,6 +312,10 @@ header .overlay-text .btn-pdf_contact .contact-link {
     background-color: var(--mainColor_2);
 }
 
+.ContactLive {
+    background-color: var(--mainColor_2);
+}
+
 .formContact input,
 .formContact textarea,
 .formContact select {
@@ -268,30 +328,4 @@ header .overlay-text .btn-pdf_contact .contact-link {
     border-radius: 50%;
     padding: 10px;
 
-}
-
-/* start servies */
-/* .servies .row {
-    gap: 1rem;
-    margin: 0;
-} */
-.servies .row .servies-item .inner-item {
-    width: 99%;
-    height: 94%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 2rem;
-    margin-bottom: 1rem;
-    border-radius: var(--divBorderRadius);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-/* .servies .row .servies-item .inner-item img {
-    width: 40px;
-    color: #F1F1F1;
-} */
-.servies .row .servies-item .inner-item p{
-    color: #BEBEBE;
-    font-size: 17px;
-    text-align: center;
 }
