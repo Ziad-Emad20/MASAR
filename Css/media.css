@@ -39,6 +39,11 @@
     header .overlay-text {
         padding-bottom: 5rem;
     }
+
+    /*Digetail*/
+    .specialty {
+        display: none;
+    }
 }
 
 
