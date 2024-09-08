@@ -7,9 +7,10 @@
     --backGroundNavTop: #1c1e1fca;
     --backGroundNavMiddel: #1c1e1f70;
     /* Font Size */
-    --FontSizeNavItem: 20px;
+    --FontSizeNavItem: 19px;
     /* Border Radius */
     --buttonBorderRadius: 5px;
+    --divBorderRadius: 10px;
 }
 
 * {
@@ -19,15 +20,15 @@
     text-decoration: none;
 }
 
-.container {
+/* .container {
     width: 80%;
     margin: auto;
-}
+} */
 
 /* Start Header */
 header {
     width: 100%;
-    height: 95vh;
+    height: 80vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/170014094459201.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -38,7 +39,7 @@ header {
 /* Nav Top */
 header .nav-top-page {
     background-color: var(--backGroundNavTop);
-    padding: 0.5em;
+    padding: 0.4rem;
 }
 
 header .nav-top-page .container {
@@ -46,7 +47,7 @@ header .nav-top-page .container {
 }
 
 header .nav-top-page .mav-logo {
-    width: 200px;
+    width: 140px;
 }
 
 header .left-nav-top .contact-nav {
@@ -75,7 +76,7 @@ header .left-nav-top span {
 }
 
 header .left-nav-top img {
-    width: 75px;
+    width: 60px;
 }
 
 /* Nav Middel */
@@ -88,7 +89,7 @@ nav ul {
     width: 65%;
     list-style: none;
     margin: 0;
-    padding: 1.3rem 0;
+    padding: .8rem 0;
 }
 
 nav ul li a {
@@ -116,8 +117,8 @@ nav ul li:hover a::before {
 .swing {
     background-color: var(--mainColor_4);
     color: var(--mainColor_2);
-    font-size: 18px;
-    padding: 10px 12px;
+    font-size: 17px;
+    padding: 8px 10px;
     border-radius: var(--buttonBorderRadius);
     border: 2px solid var(--mainColor_4);
     animation: swing ease-in-out 1s infinite alternate;
@@ -160,9 +161,9 @@ nav ul li:hover a::before {
 /* Overlay Text */
 header .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
 }
 
 header .overlay-text h1 {
@@ -182,67 +183,10 @@ header .overlay-text .btn-pdf_contact .contact-link {
     padding: 18px 28px;
 }
 
-
-/*=======  start who are you======*/
-
-
-.specialty img {
-    width: 30px;
-}
-
-
-
-
-.titleArr::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 45%;
-    width: 50px;
-    height: 5px;
-    border-radius: 25px;
-    background-color: var(--mainColor_2);
-
-}
-
-.AboutProject {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.ContactFooter li {
-    list-style: none;
-}
-
-
-
-
-.ServicesFooter li,
-.pagesFooter li,
-.ContactLi li {
-    list-style: none;
-}
-
 /* Side Nav */
-/* header .sideNavC {
-    width: 75%;
-    height: 100vh;
-    position: fixed;
-    z-index: 999999;
-    left: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-right: 3rem;
-    background-color: var(--backGroundNavTop);
-    font-size: 35px;
-    transform: translateX(-100%);
-    transition: .8s;
-} */
 
 #sideNav {
-    width: 75%;
+    width: 60%;
     height: 100vh;
     position: fixed;
     z-index: 999999;
@@ -275,8 +219,37 @@ header .overlay-text .btn-pdf_contact .contact-link {
 #sideNav .fa-xmark:hover {
     color: red;
 }
+/*=======  start who are you======*/
+.specialty img {
+    width: 30px;
+}
+
+.titleArr::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+    width: 50px;
+    height: 5px;
+    border-radius: 25px;
+    background-color: var(--mainColor_2);
+
+}
+
+.AboutProject {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ContactFooter li {
+    list-style: none;
+}
 
 
+.ServicesFooter li,
+.pagesFooter li,
+.ContactLi li {
+    list-style: none;
+}
 
 /*Contact Us*/
 .btnContact {
@@ -295,4 +268,30 @@ header .overlay-text .btn-pdf_contact .contact-link {
     border-radius: 50%;
     padding: 10px;
 
+}
+
+/* start servies */
+/* .servies .row {
+    gap: 1rem;
+    margin: 0;
+} */
+.servies .row .servies-item .inner-item {
+    width: 99%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: var(--divBorderRadius);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .servies .row .servies-item .inner-item img {
+    width: 40px;
+    color: #F1F1F1;
+} */
+.servies .row .servies-item .inner-item p{
+    color: #BEBEBE;
+    font-size: 17px;
+    text-align: center;
 }
