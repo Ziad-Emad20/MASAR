@@ -14,10 +14,9 @@
     --backGroundNavTop: #1c1e1fca;
     --backGroundNavMiddel: #1c1e1f70;
     /* Font Size */
-    --FontSizeNavItem: 19px;
+    --FontSizeNavItem: 20px;
     /* Border Radius */
     --buttonBorderRadius: 5px;
-    --divBorderRadius: 10px;
 }
 
 * {
@@ -28,15 +27,15 @@
     font-family: "Cairo", sans-serif;
 }
 
-/* .container {
+.container {
     width: 80%;
     margin: auto;
-} */
+}
 
 /* Start Header */
 header {
     width: 100%;
-    height: 80vh;
+    height: 95vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/170014094459201.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -47,7 +46,7 @@ header {
 /* Nav Top */
 header .nav-top-page {
     background-color: var(--backGroundNavTop);
-    padding: 0.4rem;
+    padding: 0.5em;
 }
 
 header .nav-top-page .container {
@@ -55,7 +54,7 @@ header .nav-top-page .container {
 }
 
 header .nav-top-page .mav-logo {
-    width: 140px;
+    width: 200px;
 }
 
 header .left-nav-top .contact-nav {
@@ -84,7 +83,7 @@ header .left-nav-top span {
 }
 
 header .left-nav-top img {
-    width: 60px;
+    width: 75px;
 }
 
 /* Nav Middel */
@@ -97,7 +96,7 @@ nav ul {
     width: 65%;
     list-style: none;
     margin: 0;
-    padding: .8rem 0;
+    padding: 1.3rem 0;
 }
 
 nav ul li a {
@@ -125,8 +124,8 @@ nav ul li:hover a::before {
 .swing {
     background-color: var(--mainColor_4);
     color: var(--mainColor_2);
-    font-size: 17px;
-    padding: 8px 10px;
+    font-size: 18px;
+    padding: 10px 12px;
     border-radius: var(--buttonBorderRadius);
     border: 2px solid var(--mainColor_4);
     animation: swing ease-in-out 1s infinite alternate;
@@ -169,9 +168,9 @@ nav ul li:hover a::before {
 /* Overlay Text */
 header .overlay-text {
     position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-40%, -40%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header .overlay-text h1 {
@@ -240,9 +239,26 @@ header .overlay-text .btn-pdf_contact .contact-link {
 
 
 /* Side Nav */
+/* header .sideNavC {
+    width: 75%;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-right: 3rem;
+    background-color: var(--backGroundNavTop);
+    font-size: 35px;
+    transform: translateX(-100%);
+    transition: .8s;
+} */
 
 #sideNav {
-    width: 60%;
+    width: 75%;
     height: 100vh;
     position: fixed;
     z-index: 999999;
@@ -275,37 +291,8 @@ header .overlay-text .btn-pdf_contact .contact-link {
 #sideNav .fa-xmark:hover {
     color: red;
 }
-/*=======  start who are you======*/
-.specialty img {
-    width: 30px;
-}
-
-.titleArr::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 45%;
-    width: 50px;
-    height: 5px;
-    border-radius: 25px;
-    background-color: var(--mainColor_2);
-
-}
-
-.AboutProject {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.ContactFooter li {
-    list-style: none;
-}
 
 
-.ServicesFooter li,
-.pagesFooter li,
-.ContactLi li {
-    list-style: none;
-}
 
 /*Contact Us*/
 .btnContact {
@@ -328,4 +315,74 @@ header .overlay-text .btn-pdf_contact .contact-link {
     border-radius: 50%;
     padding: 10px;
 
+}
+
+
+.navitemTapsFree .navFree {
+    background-color: var(--bgForm);
+    color: var(--tapColor);
+    border: 1px solid var(--ColorBorder);
+    font-size: 18px;
+}
+
+.navitemTapsFree .navFree.active {
+    color: var(--mainColor_2);
+    border: 1px solid var(--mainColor_2) !important;
+}
+
+.navitemTapsFree .navJaddah {
+    color: var(--tapColor);
+}
+
+.navitemTapsFree .navJaddah.active {
+    color: var(--mainColor_1);
+    border: 1px solid var(--mainColor_1) !important;
+}
+
+.emailContact {
+    color: var(--mainColor_2);
+
+}
+
+.borderemail {
+    border-color: var(--mainColor_2) !important;
+
+}
+
+
+
+/*footer*/
+.ServicesFooter li,
+.pagesFooter li,
+.ContactLi li {
+    list-style: none;
+}
+
+footer {
+    background-image: linear-gradient(90deg, rgba(247, 82, 76, 0.326) 0%, rgba(118, 45, 196, 0.486) 50%, rgba(0, 0, 0, 0.628) 100%), url(../img/wallpaperflare.com_wallpaper\ \(7\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headFooter {
+    color:
+        var(--footerColor);
+    line-height: 27px;
+
+}
+
+.ancorCall {
+    color: var(--footerColor);
+}
+
+.ServicesFooter a,
+.descFooter {
+    color: var(--footerColor2);
+
+}
+
+.pagesFooter a {
+    color: var(--footerColor2);
 }
