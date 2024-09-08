@@ -27,3 +27,15 @@ openSide.addEventListener('click', function () {
 closeSide.addEventListener('click', function () {
     sideNav.style.cssText = "transform: translateX(-100%)";
 });
+
+// navTaps
+// Initialization for ES Users
+import { Tab, initMDB } from "mdb-ui-kit";
+
+initMDB({ Tab });
+
+//form
+// Initialization for ES Users
+import { Input, initMDB } from "mdb-ui-kit";
+
+initMDB({ Input });

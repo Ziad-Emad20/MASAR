@@ -3,6 +3,7 @@
     --mainColor_2: #762DC4;
     --mainColor_3: #000000;
     --mainColor_4: #ffffff;
+    --bgForm: #F1F1F1;
     --backGroundNavTop: #1c1e1fca;
     --backGroundNavMiddel: #1c1e1f70;
     /* Font Size */
@@ -16,6 +17,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 /* Start Header */
@@ -47,7 +53,9 @@ header .left-nav-top .contact-nav {
     margin-bottom: 1rem;
 }
 
-header .left-nav-top .contact-nav a, header .contact-nav-small a, header .contact-nav-small .fa-bars {
+header .left-nav-top .contact-nav a,
+header .contact-nav-small a,
+header .contact-nav-small .fa-bars {
     color: var(--mainColor_4);
     cursor: pointer;
 }
@@ -56,7 +64,8 @@ header .contact-nav-small .fa-bars {
     font-size: 25px;
 }
 
-header .contact-nav-small a, header .contact-nav-small .fa-bars {
+header .contact-nav-small a,
+header .contact-nav-small .fa-bars {
     display: none;
 }
 
@@ -172,6 +181,46 @@ header .overlay-text .btn-pdf_contact .contact-link {
     background-color: var(--mainColor_2);
     padding: 18px 28px;
 }
+
+
+/*=======  start who are you======*/
+
+
+.specialty img {
+    width: 30px;
+}
+
+
+
+.titleArr::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+    width: 50px;
+    height: 5px;
+    border-radius: 25px;
+    background-color: var(--mainColor_2);
+
+}
+
+.AboutProject {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ContactFooter li {
+    list-style: none;
+}
+
+
+
+
+.ServicesFooter li,
+.pagesFooter li,
+.ContactLi li {
+    list-style: none;
+}
+
 /* Side Nav */
 /* header .sideNavC {
     width: 75%;
@@ -183,7 +232,7 @@ header .overlay-text .btn-pdf_contact .contact-link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items :start;
+    align-items: start;
     padding-right: 3rem;
     background-color: var(--backGroundNavTop);
     font-size: 35px;
@@ -201,24 +250,48 @@ header .overlay-text .btn-pdf_contact .contact-link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items :start;
+    align-items: start;
     padding-right: 3rem;
     background-color: var(--backGroundNavTop);
     font-size: 35px;
     transform: translateX(-100%);
     transition: .8s;
-    /* overflow: hidden; */
-} 
+
+}
+
 /* #sideNav:hover{
     overflow: scroll;
 } */
 #sideNav ul li a:hover {
     color: var(--mainColor_1);
 }
-#sideNav .fa-xmark{
+
+#sideNav .fa-xmark {
     color: var(--mainColor_1);
     transition: .5s;
 }
-#sideNav .fa-xmark:hover{
-    color:red;
+
+#sideNav .fa-xmark:hover {
+    color: red;
+}
+
+
+
+/*Contact Us*/
+.btnContact {
+    background-color: var(--mainColor_2);
+}
+
+.formContact input,
+.formContact textarea,
+.formContact select {
+    background-color: var(--bgForm) !important;
+}
+
+.svg-inline--fa {
+    width: 50px;
+    border: 2px green solid;
+    border-radius: 50%;
+    padding: 10px;
+
 }
