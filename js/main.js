@@ -28,8 +28,18 @@ closeSide.addEventListener('click', function () {
 });
 
 
-// /Initialize Swiper 
-var swiper = new Swiper(".mySwiper", {
+// Slide Client
+var swiperClient = new Swiper(".swiperClient", {
+    slidesPerView: 5,
+    spaceBetween: 4,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: true,
+    },
+});
+// Slide Work
+var swiperWork = new Swiper(".swiper-work", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
@@ -45,8 +55,6 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
-
-
 // // navTaps
 // // Initialization for ES Users
 // import { Tab, initMDB } from "mdb-ui-kit";
