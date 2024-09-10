@@ -44,6 +44,10 @@
     .specialty {
         display: none;
     }
+/*Cleint Silder*/
+    .swiper-wrapper img {
+        width: 100% !important;
+    }
 
     /* Slide Work */
     .swiper {
@@ -125,44 +129,13 @@
     .specialty {
         display: none;
     }
-
-    /* Slide Work */
-    .swiper {
-        height: 100vh;
+/*Cleint Silder*/
+    .swiper-wrapper img {
+        width: 100% !important;
     }
 
-    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-        display: none;
-    }
-
-    .swiper .swiper-slide .content-slide .inner-img {
-        width: 90%;
-    }
-
-    .swiper .swiper-slide .content-slide img {
-        width: 80%;
-        margin-bottom: 2rem;
-    }
-
-    .swiper .swiper-slide .content-slide .text-slide {
-        width: 80%;
-    }
-
-    .swiper .swiper-slide .content-slide .text-slide {
-        align-items: center;
-    }
-
-    .swiper .swiper-slide .content-slide .text-slide a {
-        padding: .5rem 4rem;
-    }
-    /* Slider Work */
-     /* Team Section  */
-    .team-Section .team-details .employee-1 {
-        width: 45%;
-        margin-bottom: 2.3rem;
-    }
+   
 }
-
 
 
 /* md */
@@ -200,39 +173,7 @@
     .specialty {
         display: none;
     }
-
-    /* Slide Work */
-    .swiper {
-        height: 80vh;
-    }
-
-    .swiper .swiper-slide .content-slide .inner-img {
-        width: 80%;
-        margin-bottom: 3rem;
-    }
-
-    .swiper .swiper-slide .content-slide img {
-        width: 60%;
-    }
-
-    .swiper .swiper-slide .content-slide .text-slide {
-        width: 60%;
-    }
-
-    .swiper .swiper-slide .content-slide .text-slide {
-        align-items: center;
-    }
-
-    .swiper .swiper-slide .content-slide .text-slide a {
-        padding: .5rem 4rem;
-    }
-    /* team section */
-    .team-Section .team-details .employee-1 {
-        width: 45%;
-        margin-bottom: 2.5rem;
-    }
 }
-
 /* lg */
 @media (min-width: 991px) and (max-width:1200px){
     /* team section */
