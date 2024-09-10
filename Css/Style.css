@@ -507,3 +507,126 @@ footer {
 
 /*========end animation icom in conection Icon===========*/
 /*end conection icon*/
+
+
+/* swiper slide */
+.swiper {
+    width: 100%;
+    height: 80vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 30px;
+    height: 3px;
+    border-radius: var(--divBorderRadius);
+    background-color: var(--mainColor_2);
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    background-color: var(--mainColor_4);
+    color: var(--mainColor_3);
+    border: 1px solid #bebebe5f;
+    padding: .8rem 1.1rem;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.swiper .swiper-slide .content-slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* inner slide (slide section) */
+.swiper .swiper-slide .content-slide .inner-img {
+    width: 65%;
+}
+
+.swiper .swiper-slide .content-slide .text-slide {
+    width: 35%;
+}
+
+.swiper .swiper-slide .content-slide img {
+    width: 65%;
+    border-radius: var(--divBorderRadius);
+    margin: auto;
+}
+
+.swiper .swiper-slide .content-slide .text-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.swiper .swiper-slide .content-slide .text-slide .title-slide-item {
+    color: var(--mainColor_3);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.swiper .swiper-slide .content-slide .text-slide .start-p {
+    color: var(--fontColor-P);
+    font-size: 14px;
+}
+
+.swiper .swiper-slide .content-slide .text-slide .end-p {
+    color: var(--mainColor_1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.swiper .swiper-slide .content-slide .text-slide a {
+    background-color: #F6463E;
+    color: var(--mainColor_4);
+    padding: 10px 15px;
+    border-radius: var(--divBorderRadius);
+    margin-bottom: 2rem;
+}
+
+/* +++++ end slide +++++ */
+/* Team Section */
+.team-Section .team-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-Section .team-details .employee-1{
+    width: 23%;
+    padding: 1rem;
+    margin: .4rem;
+    box-shadow:  0px 7px 29px 0px rgba(0, 0, 0, 0.553);
+    border-radius: var(--divBorderRadius);
+}
+.team-Section .team-details .employee-1 img {
+    width: 100%;
+    border-radius: var(--divBorderRadius);
+}
+.team-Section .team-details .details i {
+    transition: .5s;
+}
+.team-Section .team-details .details .fa-square-github:hover{
+    color: #000000;
+}
+.team-Section .team-details .details .fa-linkedin:hover{
+    color: #2864AA;
+}
+ /* End Team Section */

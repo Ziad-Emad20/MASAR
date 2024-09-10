@@ -27,7 +27,8 @@ closeSide.addEventListener('click', function () {
     sideNav.style.cssText = "transform: translateX(-100%)";
 });
 
-// Initialize Swiper 
+
+// /Initialize Swiper 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
