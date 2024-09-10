@@ -51,7 +51,7 @@
 
     /* Slide Work */
     .swiper-work {
-        /* height: 65vh;*/
+        /* height: 65vh; */
         height: 80vh;
         margin: 3rem 0;
     }
@@ -91,6 +91,13 @@
         width: 75%;
         margin-bottom: 2rem;
     }
+     /*===========*/
+     .ColCcc {
+        flex-wrap: wrap;
+    }
+   .ColCcc2{
+    width: 100%;
+   }
 }
 
 
@@ -171,6 +178,11 @@
     .team-Section .team-details .employee-1 {
         width: 45%;
         margin-bottom: 2.3rem;
+    }
+      /*===========*/
+      .ColCcc {
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 
