@@ -55,6 +55,10 @@ var swiperWork = new Swiper(".swiper-work", {
         prevEl: ".swiper-button-prev",
     },
 });
+let globalid = document.querySelector('#globalid');
+console.log(globalid);
+
+
 // // navTaps
 // // Initialization for ES Users
 // import { Tab, initMDB } from "mdb-ui-kit";

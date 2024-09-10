@@ -260,24 +260,7 @@ header .overlay-text .btn-pdf_contact .contact-link {
 
 
 
-/* Side Nav */
-/* header .sideNavC {
-    width: 75%;
-    height: 100vh;
-    position: fixed;
-    z-index: 999999;
-    left: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-right: 3rem;
-    background-color: var(--backGroundNavTop);
-    font-size: 35px;
-    transform: translateX(-100%);
-    transition: .8s;
-} */
+
 
 #sideNav {
     width: 75%;

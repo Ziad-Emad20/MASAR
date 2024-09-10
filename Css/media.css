@@ -262,10 +262,17 @@
         width: 30%;
         margin-bottom: 1.9rem;
     }
+    #sideNav{
+        display: none;
+    }
 }
 
 /* xl */
-@media (min-width: 1280px) {}
+@media (min-width: 1200px) and (max-width:1400px) {
+    #sideNav{
+        display: none;
+    }
+}
 
 /* lg */
 @media (min-width: 1536px) {}
