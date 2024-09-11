@@ -15,11 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <!--file css-->
     <link rel="stylesheet" href="../Css/Style.css">
-
+    <link rel="stylesheet" href="./cssAssets/offers,product.css">
     <!--file google-font-->
     <link rel="stylesheet" href="../Css/all.min.css">
     <!--file media query-->
     <link rel="stylesheet" href="../Css/media.css">
+    <!-- Assets Media -->
+    <link rel="stylesheet" href="./cssAssets/assetsMedia.css">
     <!-- MDB icon -->
     <link rel="icon" href="../img/لوجو الموقع.png" type="image/x-icon" />
     <!-- Link Swiper's CSS -->
@@ -28,14 +30,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
-
     <title>MASAR</title>
 </head>
 
-
 <body>
     <!-- Start Header -->
-    <header>
+    <header id="header-offers">
         <!-- Nav Top -->
         <div class="nav-top-page">
             <div class="container d-flex">
@@ -93,120 +93,143 @@
         <!-- Overlay Text -->
         <div class="overlay-text   text-center container">
             <div class="text-inner row">
-                <h3 class="col-md-12 text-white fs-2">اتصل بنــأ</h3>
+                <h3 class="col-md-12 text-white fs-2">منتجاتنا</h3>
                 <div class=" mt-2">
-                    <a href="../index.html" class="text-primary fs-5">الرئيسية</a> <span class="text-info"> /اتصل بنـا
+                    <a href="../index.html" class="text-primary fs-5">الرئيسية</a> <span class="text-info"> /منتجاتنا
                     </span>
-
                 </div>
             </div>
         </div>
     </header>
     <!-- end Header -->
 
-    <!-- start Contact Us-->
-    <section class="mb-10 mt-5" id="ContactUs">
-        <div class="container">
-            <h3 class=" mx-auto pb-4 w-50 lh-base text-black "> نسعد بتواصلكم معنا!
-                يرجى كتابة استفساراتكم في النموذج أدناه،
-                وسيتواصل معكم فريق المبيعات لدينا في غضون 24 ساعة.
-                شكراً لاختياركم لنا! </h3>
-
+    <section class="details-proudact container my-5">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1 class="title">المنتجات الخاصة بنا</h1>
+                <p class="details-text">
+                    يمكنك بسهولة إنشاء تطبيق او موقع ويب خاص بك<br>
+                    بالإضافة إلي دعم فني فني طوال الاسبوع وحماية البيانات من الاختراق
+                    <br><span class="details-span">ويمكنك الان الاستفادة من الكثير من العروض</span></p>
+            </div>
+            <div class="col-md-6 details-img d-flex justify-content-center align-items-center">
+                <img src="../img/المنتجات الخاصة بنا.jpg" width="100%" alt="">
+            </div>
         </div>
-        <div class="container text-center">
-
-            <!-- Tabs content -->
-            <div class="tab-content" id="ex1-content">
-                <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
-                    <!--====-->
-                    <div class="row mt-5  ">
-                        <div class="col-md-6  mx-auto">
-                            <form class="formContact ">
-                                <div class="row ">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control p-2 w-100 text-black"
-                                            id="exampleFormControlInput1" placeholder="الاسـم">
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control p-2 text-black"
-                                            id="exampleFormControlInput1" placeholder="البريد الالكتروني">
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control p-2 text-black"
-                                            id="exampleFormControlInput1" placeholder="05xxxxxxxx">
-                                    </div>
-                                    <div class="input-group mb-3">
-                                        <select class="form-select pt-2 " id="inputGroupSelect01">
-                                            <option selected>اختر خدمتك</option>
-                                            <option value="1">تصميم تطبيقات الجوال</option>
-                                            <option value="2">تصميم متجر الكتروني</option>
-                                            <option value="3">تطوير وتصميم مواقع الويب</option>
-                                            <option value="3">التسويق الالكتروني</option>
-                                            <option value="3">موشن جرافيك</option>
-                                            <option value="3">تصميم الهوية التجارية</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3">
-                                        <textarea class="form-control text-black" id="exampleFormControlTextarea1"
-                                            placeholder="رسالتك" rows="5"></textarea>
-                                    </div>
-                                    <div class="mb-3 text-center text-white">
-                                        <button type="button"
-                                            class=" btnContact text-white w-100 p-1 rounded-5 ">ارسـال</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="description">
-                <h3 class="mt-4">بحاجة لبعض المساعدة ؟ نحن هنا من أجلك</h3>
-                <div class="row mt-5">
-                    <div class="col-md-6 d-flex flex-column text-center">
-                        <h3>الدعم</h3>
-                        <p>لخدمات ما بعد البيع نحن هنا لخدمتك في كل وقت</p>
-                        <a href="tel:+20 1123439278" class="mt-2 mb-2 text-dark"> <span><i
-                                    class="fas  fa-phone"></i></span> +2000000000</a>
-                        <a href="" class="text-dark"> <span><i class="fas  fa-envelope "></i></span> exaple@,com</a>
-
-                    </div>
-                    <div class="col-md-6 d-flex flex-column text-center">
-                        <h3>المبيعات</h3>
-                        <p> للاستفسارات وطلب الخدمات</p>
-                        <a href="tel:+20 1123439278" class="mt-2 mb-2 text-dark"> <span><i
-                                    class="fas  fa-phone"></i></span>
-                            +2000000000</a>
-                        <a href="" class="text-dark"> <span><i class="fas  fa-envelope"></i></span> exaple@,com</a>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.86296273878222!2d39.22527099837219!3d21.593439671012717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d01fb1137e59%3A0xe059579737b118db!2sJeddah%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1725757056887!5m2!1sen!2seg"
-                        class=" rounded-3 w-75    mt-5 mb-10" style=" height: 100%;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-
-        </div>
-        <!-- Tabs content -->
-
     </section>
-    <!-- end Contact Us -->
+
+
+
+
+
+    <!-- Offers Section 1 -->
+    <!-- <section class="offers offers-white w-100 my-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عروض تطبيقات الجوال</h1>
+                    <div class="inner-text my-3">
+                        <span class="discount">( خصومات تصل الى 20 % )</span>
+                        <p class="my-2 text">تطبيق + موقع تعريفي مجانا + دعم فني لمدة 6 شهور مجانا بخصم يصل ل 20%. نحوّل
+                            أفكارك إلى تطبيقات
+                            واقعية ملموسة لتوفير تجربة مستخدم متميزة. باستخدام أحدث التقنيات وأساليب تصميم واجهة
+                            المستخدم،مع
+                            سهولة الاستخدام . لـ iOS أو Android أو كليهما. ابدأ في تحقيق رؤيتك لتطبيق مبتكر وواعد </p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/تطبيق كاميلا عروض.webp" class="img-offers col-md-6" alt="تطبيق كاميلا">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section> -->
+    <!-- Offers Section 2 -->
+    <section class="offers offers-colors w-100 my-5 py-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عروض المتاجر الالكترونية</h1>
+                    <div class="inner-text my-3">
+                        <span class="discount">( خصومات تصل الى 40 % )</span>
+                        <p class="my-2 text"> متجر إلكتروني تاجر واحد + استضافة مجانية + دومين مجاني + إدارة محتوى مجانا
+                            <br>
+                            متجر تجار متعددين + تطبيق Android + تطبيق IOS</p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/عروض المتاجر الالكترونية.webp" class="img-offers col-md-6"
+                        alt="المتاجر الالكترونية">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section>
+    <!-- Offers Section 3 -->
+    <section class="offers offers-white w-100 my-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عرض موقع تعريفي</h1>
+                    <div class="inner-text my-3">
+                        <p class="text">موقع تعريفي لعلامتك التجارية</p>
+                        <p class="my-2 text">
+                            موقع تعريفي للشركات أو الافراد يعتبر من الخطوات المهمة لأي شركة أو شخص يقدم خدمات احترافية،
+                            وذلك لتعريف المنتج أو الخدمة أو الموقع وإضافة لذلك فهو يوضح كل ما يخص الشركات عن طريق عرض
+                            الأقسام والمجالات
+                        </p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/عرض موقع تعريفي.webp" class="img-offers col-md-6" alt="عرض موقع تعريفي">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section>
+    <!-- Offers Section 4 -->
+    <section class="offers offers-colors w-100 mt-5 py-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عرض موقع خدمى</h1>
+                    <div class="inner-text my-3">
+                        <p class="text lh-base">(مواقع مخصصة خدمية بخصم 25%)</p>
+                        <p class="my-2 text lh-base">موقع الخاص بك بالعديد من اللغات تصميمات خاصة بالفرد أو المؤسسة أو الشركة
+                            احترافية مميزة، لعرض خدمات الشركة بطريقة سهلة ومميزة ويمكنك من عمل الاوردرات والطلبات عن
+                            طريق الموقع وتسجل بشكل تلقائي في لوحة التحكم. مع إتاحة الحماية المميزة لموقعك من أي اختراق
+                            وهو ما يحافظ على خصوصية المستخدم.</p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/عرض موقع خدمى.webp" class="img-offers col-md-6" alt="عرض موقع خدمى">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
 
     <!--Footer-->
     <footer class=" text-white   p-5">
         <div class="container">
             <div class="row ">
                 <div class="col-md-4 pb-3 text-end">
-                    <img src="./img/لوجو الموقع.png" class="w-50" alt="">
+                    <img src="../img/لوجو الموقع.png" class="w-50" alt="">
                     <p class="fs-6 mt-3 mb-4  headFooter">مؤسسة ملتقى للبرمجيات افضل شركة برمجة في السعودية متخصصون في
                         برمجة
                         وتصميم
@@ -296,26 +319,22 @@
         </div>
     </footer>
     <!-- end Footer-->
-
     <!--fixed icon-->
     <div>
         <div class=" position-fixed bottom-0 start-0 mb-9  ms-4">
             <a class="changeColor fs-3 p-2 PhoneIcon " target="_blank" href="tel:+20 1123439278">
                 <i class="fas fa-phone BGIcon text-white p-3 rounded-circle"></i></a>
         </div>
-
-
         <div class=" position-fixed bottom-0 start-0  mb-3 ms-4">
             <a class="text-success fs-2 p-2 whatsaapIcon" target="_blank" href="whatsapp://send?text=Your message here">
                 <i class="fa fa-brands fa-whatsapp bg-success text-white p-3 rounded-circle"></i></a>
         </div>
     </div>
-<div id="globalid"></div>
     <!-- end fixed icon-->
- 
-  <!--javaScript file-->
-  <script src="../js/main.js"></script>
- 
+    <!-- MDB -->
+    <script src="../js/bootstrap.bundle.js"></script>
+    <!--javaScript file-->
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

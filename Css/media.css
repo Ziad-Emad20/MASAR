@@ -1,6 +1,6 @@
 /* as8ar mn 640 */
 
-/* sm */
+
 @media (min-width: 300px) and (max-width: 578px) {
     header .left-nav-top .contact-nav {
         display: none;
@@ -186,8 +186,6 @@
     }
 }
 
-
-/* md */
 @media (min-width: 768px) and (max-width: 991px) {
     /* Header */
     header .left-nav-top .contact-nav {
@@ -224,7 +222,7 @@
     }
     /* Slide Work */
     .swiper-work {
-        height: 90vh;
+        height: 50vh;
         margin: 2.5rem 0;
     }
 
@@ -255,7 +253,7 @@
         margin-bottom: 2.5rem;
     }
 }
-/* lg */
+
 @media (min-width: 991px) and (max-width:1200px){
     /* team section */
     .team-Section .team-details .employee-1 {

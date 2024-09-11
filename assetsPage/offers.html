@@ -15,11 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <!--file css-->
     <link rel="stylesheet" href="../Css/Style.css">
-    <link rel="stylesheet" href="./cssAssets/offers.css">
+    <link rel="stylesheet" href="./cssAssets/offers,product.css">
     <!--file google-font-->
     <link rel="stylesheet" href="../Css/all.min.css">
     <!--file media query-->
     <link rel="stylesheet" href="../Css/media.css">
+    <!-- Assets Media -->
+    <link rel="stylesheet" href="./cssAssets/assetsMedia.css">
     <!-- MDB icon -->
     <link rel="icon" href="../img/لوجو الموقع.png" type="image/x-icon" />
     <!-- Link Swiper's CSS -->
@@ -30,10 +32,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
     <title>MASAR</title>
 </head>
-
+<style>
+    /* scroll */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--mainColor_2);
+    border-radius: 50px;
+}
+</style>
 <body>
     <!-- Start Header -->
-    <header>
+    <header id="header-offers">
         <!-- Nav Top -->
         <div class="nav-top-page">
             <div class="container d-flex">
@@ -59,7 +70,7 @@
                     <li><a href="../index.html">الرئيسية</a></li>
                     <li><a href="#من نحن">من نحن</a></li>
                     <li><a href="#خدماتنا">خدماتنا</a></li>
-                    <li><a href="#منتجاتنا">منتجاتنا</a></li>
+                    <li><a href="./product.html">منتجاتنا</a></li>
                     <li><a href="./Call.html">اتصل بنا</a></li>
                     <li><a href="./offers.html">العروض</a></li>
                 </ul>
@@ -74,7 +85,7 @@
                 <li><a href="../index.html">الرئيسية</a></li>
                 <li><a href="#من نحن">من نحن</a></li>
                 <li><a href="#خدماتنا">خدماتنا</a></li>
-                <li><a href="#منتجاتنا">منتجاتنا</a></li>
+                <li><a href="./product.html">منتجاتنا</a></li>
                 <li><a href="./Call.html">اتصل بنا</a></li>
                 <li><a href="./offers.html">العروض</a></li>
             </ul>
@@ -100,26 +111,97 @@
         </div>
     </header>
     <!-- end Header -->
-    <!-- Offers Section -->
-    <section class="offers offers-1 w-100 py-5">
+    <!-- Offers Section 1 -->
+    <section class="offers offers-white w-100 my-5">
         <div class="container">
-            <div class="row">
-                <div class="text-offers col-md-6 text-center d-flex flex-column justify-content-center align-items-center">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
                     <h1>عروض تطبيقات الجوال</h1>
                     <div class="inner-text my-3">
-                        <span>( خصومات تصل الى 20 % )</span>
-                    <p>تطبيق + موقع تعريفي مجانا + دعم فني لمدة 6 شهور مجانا بخصم يصل ل 20%. نحوّل أفكارك إلى تطبيقات
-                        واقعية ملموسة لتوفير تجربة مستخدم متميزة. باستخدام أحدث التقنيات وأساليب تصميم واجهة المستخدم،مع
-                        سهولة الاستخدام . لـ iOS أو Android أو كليهما. ابدأ في تحقيق رؤيتك لتطبيق مبتكر وواعد </p>
+                        <span class="discount">( خصومات تصل الى 20 % )</span>
+                        <p class="my-2 text">تطبيق + موقع تعريفي مجانا + دعم فني لمدة 6 شهور مجانا بخصم يصل ل 20%. نحوّل
+                            أفكارك إلى تطبيقات
+                            واقعية ملموسة لتوفير تجربة مستخدم متميزة. باستخدام أحدث التقنيات وأساليب تصميم واجهة
+                            المستخدم،مع
+                            سهولة الاستخدام . لـ iOS أو Android أو كليهما. ابدأ في تحقيق رؤيتك لتطبيق مبتكر وواعد </p>
                     </div>
-                    <a href="#احصل علي العرض">احصل علي العرض</a>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
                 </div>
                 <div class="img-offers col-md-6">
-                    <img src="../img/تطبيق كاميلا عروض.webp" width="90%" class="m-auto" alt="تطبيق كاميلا">
+                    <img src="../img/تطبيق كاميلا عروض.webp" class="img-offers col-md-6" alt="تطبيق كاميلا">
                 </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
             </div>
         </div>
     </section>
+    <!-- Offers Section 2 -->
+    <section class="offers offers-colors w-100 my-5 py-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عروض المتاجر الالكترونية</h1>
+                    <div class="inner-text my-3">
+                        <span class="discount">( خصومات تصل الى 40 % )</span>
+                        <p class="my-2 text"> متجر إلكتروني تاجر واحد + استضافة مجانية + دومين مجاني + إدارة محتوى مجانا
+                            <br>
+                            متجر تجار متعددين + تطبيق Android + تطبيق IOS</p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/عروض المتاجر الالكترونية.webp" class="img-offers col-md-6"
+                        alt="المتاجر الالكترونية">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section>
+    <!-- Offers Section 3 -->
+    <section class="offers offers-white w-100 my-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عرض موقع تعريفي</h1>
+                    <div class="inner-text my-3">
+                        <p class="text">موقع تعريفي لعلامتك التجارية</p>
+                        <p class="my-2 text">
+                            موقع تعريفي للشركات أو الافراد يعتبر من الخطوات المهمة لأي شركة أو شخص يقدم خدمات احترافية،
+                            وذلك لتعريف المنتج أو الخدمة أو الموقع وإضافة لذلك فهو يوضح كل ما يخص الشركات عن طريق عرض
+                            الأقسام والمجالات
+                        </p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/عرض موقع تعريفي.webp" class="img-offers col-md-6" alt="عرض موقع تعريفي">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section>
+    <!-- Offers Section 4 -->
+    <section class="offers offers-colors w-100 mt-5 py-5">
+        <div class="container">
+            <div class="row container-text-offers">
+                <div class="text-offers col-md-6 text-center">
+                    <h1>عرض موقع خدمى</h1>
+                    <div class="inner-text my-3">
+                        <p class="text lh-base">(مواقع مخصصة خدمية بخصم 25%)</p>
+                        <p class="my-2 text lh-base">موقع الخاص بك بالعديد من اللغات تصميمات خاصة بالفرد أو المؤسسة أو الشركة
+                            احترافية مميزة، لعرض خدمات الشركة بطريقة سهلة ومميزة ويمكنك من عمل الاوردرات والطلبات عن
+                            طريق الموقع وتسجل بشكل تلقائي في لوحة التحكم. مع إتاحة الحماية المميزة لموقعك من أي اختراق
+                            وهو ما يحافظ على خصوصية المستخدم.</p>
+                    </div>
+                    <a href="#احصل علي العرض" class="link-to-offers">احصل علي العرض</a>
+                </div>
+                <div class="img-offers col-md-6">
+                    <img src="../img/عرض موقع خدمى.webp" class="img-offers col-md-6" alt="عرض موقع خدمى">
+                </div>
+                <a href="#احصل علي العرض" class="link-to-offers link-to-offers-bottom">احصل علي العرض</a>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -136,7 +218,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-md-4 pb-3 text-end">
-                    <img src="./img/لوجو الموقع.png" class="w-50" alt="">
+                    <img src="../img/لوجو الموقع.png" class="w-50" alt="">
                     <p class="fs-6 mt-3 mb-4  headFooter">مؤسسة ملتقى للبرمجيات افضل شركة برمجة في السعودية متخصصون في
                         برمجة
                         وتصميم
@@ -239,12 +321,7 @@
     </div>
     <!-- end fixed icon-->
     <!-- MDB -->
-    <script src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!--jQuery file-->
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
     <!--javaScript file-->
     <script src="../js/main.js"></script>
 </body>

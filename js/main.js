@@ -60,6 +60,7 @@ console.log(globalid);
 
 
 // // navTaps
+
 // // Initialization for ES Users
 // import { Tab, initMDB } from "mdb-ui-kit";
 
@@ -70,3 +71,4 @@ console.log(globalid);
 // import { Input, initMDB } from "mdb-ui-kit";
 
 // initMDB({ Input });
+
