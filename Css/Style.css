@@ -523,15 +523,20 @@ footer {
 .swiper-rtl .swiper-button-next:after,
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-.swiper-rtl .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    background-color: var(--mainColor_4);
-    color: var(--mainColor_3);
-    border: 1px solid #bebebe5f;
-    padding: .8rem 1.1rem;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 50px;
-}}
+
+    .swiper-rtl .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        background-color: var(--mainColor_4);
+        color: var(--mainColor_3);
+        border: 1px solid #bebebe5f;
+        padding: .8rem 1.1rem;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+}
 
 .swiper-work .swiper-slide-work .content-slide {
     width: 100%;
@@ -549,7 +554,7 @@ footer {
 
 .swiper-work .swiper-slide-work .content-slide .text-slide {
     width: 35%;
-    
+
 }
 
 .swiper-work .swiper-slide-work .content-slide img {
@@ -620,8 +625,9 @@ footer {
 .team-Section .team-details .details .fa-linkedin:hover {
     color: #2864AA;
 }
- /* End Team Section */
- /* swiper slide */
+
+/* End Team Section */
+/* swiper slide */
 .swiper-work {
     width: 100%;
     height: 80vh;
@@ -644,7 +650,10 @@ footer {
     background-color: var(--mainColor_2);
 }
 
-.swiper-rtl .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+.swiper-rtl .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
     background-color: var(--mainColor_4);
     color: var(--mainColor_3);
     border: 1px solid #bebebe5f;
@@ -670,7 +679,7 @@ footer {
 
 .swiper-work .swiper-slide-work .content-slide .text-slide {
     width: 35%;
-    
+
 }
 
 .swiper-work .swiper-slide-work .content-slide img {
@@ -710,3 +719,17 @@ footer {
 }
 
 /* +++++ end slide +++++ */
+.child {
+
+    /*
+          All of the base styles have
+          moved to the “CSS” tab above.
+        */
+    transition: transform 250ms;
+    background-color: #762DC4;
+
+}
+
+.child:hover {
+    transform: translateY(-10px);
+}

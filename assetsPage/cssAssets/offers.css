@@ -1,0 +1,69 @@
+:root {
+    --fontWeight: 700;
+    --colorWhite: #ffffff;
+    --mainColor_2: #762DC4;
+    --mainColor_3: #F3F3F3;
+}
+
+.offers-1 .container .text-offers h1,
+span {
+    color: var(--mainColor_2);
+    font-size: 40px;
+    font-weight: var(--fontWeight);
+    filter: drop-shadow(3px 2px 1px var(--tapColor));
+}
+
+.offers-1 .container .text-offers span {
+    font-weight: 400;
+    word-spacing: 3px;
+}
+
+.offers-1 .container .text-offers p {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(102, 102, 102);
+    font-weight: var(--fontWeight);
+}
+
+.offers-1 .container .text-offers a {
+    width: 75%;
+    color: var(--colorWhite);
+    font-size: 24px;
+    font-weight: var(--fontWeight);
+    padding: 1rem;
+    border-radius: 35px;
+    transition: 1s;
+    background: linear-gradient(0deg, rgb(81, 52, 106) 55%, rgb(145, 74, 208) 100%);
+}
+
+.offers-1 .container .text-offers a:hover {
+    background: linear-gradient(0deg, rgb(118, 58, 171) 55%, rgb(81, 52, 106) 100%);
+}
+
+/*who*/
+.Whotitle {
+    color: var(--mainColor_2) !important;
+}
+
+/*hestory*/
+.hestory {
+    background-color: var(--mainColor_3);
+}
+
+.rowhestory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.rowhestory .col-md-4 {
+    transition: all .6s;
+    width: 30%;
+}
+
+.rowhestory .col-md-4:hover {
+    color: var(--colorWhite);
+    background-color: var(--mainColor_2);
+
+}

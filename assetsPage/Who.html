@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <!--file css-->
     <link rel="stylesheet" href="../Css/Style.css">
+    <link rel="stylesheet" href="./cssAssets/offers.css">
 
     <!--file google-font-->
     <link rel="stylesheet" href="../Css/all.min.css">
+
     <!--file media query-->
     <link rel="stylesheet" href="../Css/media.css">
     <!-- MDB icon -->
@@ -59,9 +61,9 @@
             <div class="container d-flex justify-content-between  align-items-center">
                 <ul class="d-flex justify-content-between align-items-center">
                     <li><a href="../index.html">الرئيسية</a></li>
-                    <li><a href="#من نحن">من نحن</a></li>
+                    <li><a href="../assetsPage/Who.html">من نحن</a></li>
                     <li><a href="#خدماتنا">خدماتنا</a></li>
-                    <li><a href="./product.html">منتجاتنا</a></li>
+                    <li><a href="#منتجاتنا">منتجاتنا</a></li>
                     <li><a href="./Call.html">اتصل بنا</a></li>
                     <li><a href="./offers.html">العروض</a></li>
                 </ul>
@@ -74,9 +76,9 @@
             <i class="fa-solid fa-xmark" id="closeSide"></i>
             <ul>
                 <li><a href="../index.html">الرئيسية</a></li>
-                <li><a href="#من نحن">من نحن</a></li>
+                <li><a href="../assetsPage/Who.html">من نحن</a></li>
                 <li><a href="#خدماتنا">خدماتنا</a></li>
-                <li><a href="./product.html">منتجاتنا</a></li>
+                <li><a href="#منتجاتنا">منتجاتنا</a></li>
                 <li><a href="./Call.html">اتصل بنا</a></li>
                 <li><a href="./offers.html">العروض</a></li>
             </ul>
@@ -93,9 +95,9 @@
         <!-- Overlay Text -->
         <div class="overlay-text   text-center container">
             <div class="text-inner row">
-                <h3 class="col-md-12 text-white fs-2">اتصل بنـا</h3>
+                <h3 class="col-md-12 text-white fs-2"> من نحن</h3>
                 <div class=" mt-2">
-                    <a href="../index.html" class="text-primary fs-5">الرئيسية</a> <span class="text-info"> /اتصل بنـا
+                    <a href="../index.html" class="text-primary fs-5">الرئيسية</a> <span class="text-info"> / من نحن
                     </span>
 
                 </div>
@@ -104,102 +106,141 @@
     </header>
     <!-- end Header -->
 
-    <!-- start Contact Us-->
-    <section class="mb-10 mt-5" id="ContactUs">
-        <div class="container">
-            <h3 class=" mx-auto pb-4 w-50 lh-base text-black "> نسعد بتواصلكم معنا!
-                يرجى كتابة استفساراتكم في النموذج أدناه،
-                وسيتواصل معكم فريق المبيعات لدينا في غضون 24 ساعة.
-                شكراً لاختياركم لنا! </h3>
 
+    <!--start who are you 2=====================-->
+    <section class="mt-5   mb-7 ">
+        <h3 class="titleArr text-center pb-3 fs-1 fw-bolder position-relative">من نحن</h3>
+        <div class="container mt-4">
+            <div class="row ">
+                <div class="col-md-6  ">
+                    <img src="./img/لو جو من نحن.png" class="w-25 mb-3" alt="">
+                    <p class="mt-3 pt-2 fs-6 lh-lg fw-bold ">مؤسسة ملتقى للبرمجيات شركة برمجة سعودية رسمية رائدة في مجال
+                        <br> تكنولوجيا
+                        المعلومات
+                        بخبرة
+                        كبيرة في
+                        تقديم حلول
+                        رقمية مبتكرة تأسست <br>في 2020م نقدم خدمات تصميم و تطوير المواقع الالكترونية وتطبيقات
+                        <br>الجوال، و استضافة
+                        المواقع،
+                        و التسويق الإلكتروني بالإضافة لحلول <br>متكاملة في البرمجيات ابداء رحلتك الرقمية الفريدة مع
+                        ملتقى أفضل<br>
+                        شركة
+                        برمجة سعودية
+                    </p>
+                </div>
+
+                <div class="col-lg-6 bg-info colprod  ">
+
+
+                </div>
+
+
+            </div>
         </div>
-        <div class="container text-center">
+    </section>
+    <!--end who are you 2-->
 
-            <!-- Tabs content -->
-            <div class="tab-content" id="ex1-content">
-                <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
-                    <!--====-->
-                    <div class="row mt-5  ">
-                        <div class="col-md-6  mx-auto">
-                            <form class="formContact ">
-                                <div class="row ">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control p-2 w-100 text-black"
-                                            id="exampleFormControlInput1" placeholder="الاسـم">
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control p-2 text-black"
-                                            id="exampleFormControlInput1" placeholder="البريد الالكتروني">
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control p-2 text-black"
-                                            id="exampleFormControlInput1" placeholder="05xxxxxxxx">
-                                    </div>
-                                    <div class="input-group mb-3">
-                                        <select class="form-select pt-2 " id="inputGroupSelect01">
-                                            <option selected>اختر خدمتك</option>
-                                            <option value="1">تصميم تطبيقات الجوال</option>
-                                            <option value="2">تصميم متجر الكتروني</option>
-                                            <option value="3">تطوير وتصميم مواقع الويب</option>
-                                            <option value="3">التسويق الالكتروني</option>
-                                            <option value="3">موشن جرافيك</option>
-                                            <option value="3">تصميم الهوية التجارية</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3">
-                                        <textarea class="form-control text-black" id="exampleFormControlTextarea1"
-                                            placeholder="رسالتك" rows="5"></textarea>
-                                    </div>
-                                    <div class="mb-3 text-center text-white">
-                                        <button type="button"
-                                            class=" btnContact text-white w-100 p-1 rounded-5 ">ارسـال</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
 
-                    </div>
-                </div>
+    <!--message-->
 
-            </div>
-
-            <div class="description">
-                <h3 class="mt-4">بحاجة لبعض المساعدة ؟ نحن هنا من أجلك</h3>
-                <div class="row mt-5">
-                    <div class="col-md-6 d-flex flex-column text-center">
-                        <h3>الدعم</h3>
-                        <p>لخدمات ما بعد البيع نحن هنا لخدمتك في كل وقت</p>
-                        <a href="tel:+20 1123439278" class="mt-2 mb-2 text-dark"> <span><i
-                                    class="fas  fa-phone"></i></span> +2000000000</a>
-                        <a href="" class="text-dark"> <span><i class="fas  fa-envelope "></i></span> exaple@,com</a>
-
-                    </div>
-                    <div class="col-md-6 d-flex flex-column text-center">
-                        <h3>المبيعات</h3>
-                        <p> للاستفسارات وطلب الخدمات</p>
-                        <a href="tel:+20 1123439278" class="mt-2 mb-2 text-dark"> <span><i
-                                    class="fas  fa-phone"></i></span>
-                            +2000000000</a>
-                        <a href="" class="text-dark"> <span><i class="fas  fa-envelope"></i></span> exaple@,com</a>
-
-                    </div>
-
-                </div>
-            </div>
+    <section class="mb-6">
+        <h3 class="titleArr Whotitle text-center pb-3 fs-1 fw-bolder position-relative"> الرؤية و الرسالة و الهد ف</h3>
+        <div class="container mt-3">
             <div class="row">
-                <div class="col-md-12">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.86296273878222!2d39.22527099837219!3d21.593439671012717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d01fb1137e59%3A0xe059579737b118db!2sJeddah%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1725757056887!5m2!1sen!2seg"
-                        class=" rounded-3 w-75    mt-5 mb-10" style=" height: 100%;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-md-4">
+                    <h4 class="text-black"> الرؤية</h4>
+                    <p>أن نصبح رواد في تقنية المعلومات والبرمجيات في الشرق الاوسط, وفي جميع أنحاء العالم. حيث نقدم
+                        لعملائنا
+                        حلول فريدة ومبتكرة في , تصميم وتطوير المواقع وتصميم تطبيقات الجوال وذلك من خلال أحدث الوسائل
+                        التكنولوجية</p>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <h4 class="text-black">الرسالة</h4>
+                    <p>المساهمة فى تطوير العديد من الاعمال و الشركات والمؤسسات لتواكب التطور و الحداثة ,من خلال خدمات
+                        عالمية
+                        برمجية حديثة تخدم عملائنا و شركائنا من خلال تقديم خدمات تصميم وتطوير المواقع وتصميم تطبيقات
+                        الجوال
+                        ممتازة و مؤثرة.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-black">الهدف</h4>
+                    <p>مواكبة أحدث التطورات لضمان تعظيم استفادتك لاننا لسنا مجرد شركة برمجة تنفذ لك مشروعك وتنتهي
+                        علاقتنا بك
+                        بعد التسليم، وإنما نوفر لك دعم فني مميز مجانا لمدة عام كامل لنضمن تشغيل موقعك أو تطبيق الجوال
+                        الخاص
+                        بك على أكمل وجه،فـ ملتقي شريك تقنی داعم لمشروعك</p>
+
                 </div>
             </div>
-
         </div>
-        <!-- Tabs content -->
+
 
     </section>
-    <!-- end Contact Us -->
+    <!--end message-->
+    <!--hestory-->
+
+    <section>
+        <div class="container hestory text-center pt-5 pb-4">
+            <h4 class="mb-7">تاريخنا</h4>
+            <p class="mb-5">تأسست مؤسسة ملتقى في جدة في المملكة العربية السعودية عام 2020 م وذلك بهدف تقديم حلول برمجية
+                و تكنولوجية في قطاعات الأعمال في المملكة وقد حصل فريق عمل ملتقى على ثقة العديد من الشركات و الافراد
+                بالإضافة للجهات الرسمية لبناء وتنفيذ مواقع الكترونية و تطبيقات نحن نفخر بالمشاركة في نجاح جميع عملائنا و
+                نعدهم بالمزيد</p>
+            <h3 class="titleArr Whotitle text-center pb-3 fs-1 fw-bolder position-relative"> ماذا نفعل ؟</h3>
+            <div class="rowhestory mt-5 mb-10">
+                <div class="col-md-4 rounded-6  p-3 text-center pb-5 ">
+                    <h4 class="pb-2 pt-3">تصميم وتطوير المواقع الإلكترونية</h4>
+                    <p class="lh-lg text-end"> تصميم وتطوير مواقع الإنترنت نوفر لعملائنا تصميم مواقع احترافيه لمجالات
+                        متنوعة مثل
+                        تصميم مواقع
+                        الشركات مواقع التسويق العقاري و المواقع التعريفية للشركات و المؤسسات الحكومية و الخاصة و الافراد
+                        بمميزات تقنية </p>
+                </div>
+                <div class="col-md-4 rounded-6  p-3 text-center pb-5">
+                    <h4 class="pb-2 pt-3">تصميم وتطوير تطبيقات الجوال </h4>
+                    <p class="lh-lg text-end">تصميم و برمجة و تطوير تطبيقات الجوال بشكل احترافي لتحقيق أهدافك مع شركة
+                        ملتقى
+                        للبرمجيات التي
+                        تتميز بقدرتها علي تنفيذ كافة الافكار البرمجية وتصميم تطبيقات الجوال بذوق راقي ومحترف وباحدث
+                        البرمجيات و التقنيات.</p>
+                </div>
+                <div class="col-md-4 rounded-6  p-3 text-center pb-5">
+                    <h4 class="pb-2 pt-3"> خدمات التسويق الإلكتروني </h4>
+                    <p class="lh-lg text-end">كل نشاط تجاري أو تطبيق أو فكرة يمكننا توصيلها باحترافية عالية وحضور ممتاز
+                        لاننا بـ
+                        ملتقى نعتمد استراتيجيات متعددة تتوافق مع كل الأنشطة مع مزيد من التطوير و المرونة بداية من دراسة
+                        السوق والمنافسين من خلال خطة احترافية </p>
+
+                </div>
+                <div class="col-md-4 rounded-6  p-3 text-center pb-5">
+                    <h4 class="pb-2 pt-3">موشن جرافيك</h4>
+                    <p class="lh-lg text-end">الموشن جرافيك من الأدوات التسويقية التي يبقى اثرها في أذهان عملائك لذلك
+                        نقدم لذلك
+                        نعمل على تقديم
+                        خدمات الموشن جرافيك مع محتوى مؤثر و ملهم لدينا متخصصين في تصميم الموشن جرافيك بأفضل جودة وفى وقت
+                        قياسي .</p>
+                </div>
+                <div class="col-md-4 rounded-6  p-3 text-center pb-5">
+                    <h4 class="pb-2 pt-3"> تصميم وتطوير المتاجر الإلكترونية</h4>
+                    <p class="lh-lg text-end">صمم متجرك الالكتروني الان و اثبت تواجدك في السوق وقم بالتغلب على
+                        المنافسين كل ما
+                        عليك فعله هو اتخاذ خطوة تصميم متجر إلكتروني والبدا بإضافة المنتجات والعروض التي تقوم بتقديمها
+                        نحن نقدم لك خلاص خبراتنا و نعدك بالمزيد </p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!--end hestory-->
+
 
     <!--Footer-->
     <footer class=" text-white   p-5">
@@ -310,12 +351,12 @@
                 <i class="fa fa-brands fa-whatsapp bg-success text-white p-3 rounded-circle"></i></a>
         </div>
     </div>
-<div id="globalid"></div>
+    <div id="globalid"></div>
     <!-- end fixed icon-->
- 
-  <!--javaScript file-->
-  <script src="../js/main.js"></script>
- 
+
+    <!--javaScript file-->
+    <script src="../js/main.js"></script>
+
 </body>
 
 </html>
