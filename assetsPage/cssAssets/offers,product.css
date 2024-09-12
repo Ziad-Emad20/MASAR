@@ -121,7 +121,31 @@
     transform: translateY(-10px);
 }
 
-
+/* show app */
+.show-app .btn-store a i{
+    font-size: 30px;
+}
+.show-app .btn-store a {
+    background-color: var(--mainColor_1);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 35px;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+.show-app .btn-store .google-play:hover {
+    background-color: var(--mainColor_2);
+}
+.show-app .btn-store .app-store{
+    background-color: var(--mainColor_2);
+}
+.show-app .btn-store .app-store:hover{
+    background-color: var(--mainColor_1);
+}
     /* scroll */
 ::-webkit-scrollbar{
     width: 5px;
