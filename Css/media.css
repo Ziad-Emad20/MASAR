@@ -113,6 +113,16 @@
 
         width: 100%;
     }
+
+    .Rrow,
+    .Lrow {
+        width: 100%;
+    }
+
+    .Lrow {
+        margin-top: 10px;
+
+    }
 }
 
 
@@ -211,6 +221,16 @@
 
         width: 100%;
     }
+
+    .Rrow,
+    .Lrow {
+        width: 100%;
+    }
+
+    .Lrow {
+        margin-top: 10px;
+
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -287,6 +307,16 @@
 
     .rowhestory .col-md-4 {
         width: 100%;
+    }
+
+    .Rrow,
+    .Lrow {
+        width: 100%;
+    }
+    
+    .Lrow {
+        margin-top: 10px;
+
     }
 }
 

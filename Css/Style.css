@@ -184,16 +184,18 @@ header .overlay-text .btn-pdf_contact a {
     border-radius: var(--buttonBorderRadius);
     transition: .5s;
 }
+
 header .overlay-text .btn-pdf_contact .pdf:hover {
     background-color: var(--mainColor_2);
 }
+
 header .overlay-text .btn-pdf_contact .contact-link {
     background-color: var(--mainColor_2);
     padding: 15px 28px;
     transition: .5s;
 }
 
-header .overlay-text .btn-pdf_contact .contact-link:hover{
+header .overlay-text .btn-pdf_contact .contact-link:hover {
     background-color: var(--mainColor_1);
 }
 
@@ -420,8 +422,10 @@ footer {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
 }
+
 /* mauve color */
-.mauve-color::before , .orange-color::before{
+.mauve-color::before,
+.orange-color::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -434,21 +438,25 @@ footer {
     z-index: -1;
     transition: .5s;
 }
+
 .orange-color::before {
     background-color: var(--mainColor_1);
 }
 
-.mauve-color:hover::before , .orange-color:hover:before {
+.mauve-color:hover::before,
+.orange-color:hover:before {
     clip-path: ellipse(150% 150% at 0% 100%);
 }
-.servies .row .servies-item .inner-title-servise{
+
+.servies .row .servies-item .inner-title-servise {
     font-weight: 700;
     transition: .5s;
 }
+
 .servies .row .servies-item .mauve-color:hover p,
 .servies .row .servies-item .mauve-color:hover h5,
 .servies .row .servies-item .orange-color:hover p,
-.servies .row .servies-item .orange-color:hover h5{
+.servies .row .servies-item .orange-color:hover h5 {
     color: var(--mainColor_4);
 }
 
@@ -750,27 +758,88 @@ footer {
 }
 
 /* +++++ end slide +++++ */
-.child {
-
-    /*
-          All of the base styles have
-          moved to the “CSS” tab above.
-        */
+.colprod {
     transition: transform 250ms;
-    background-color: #762DC4;
+
+
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, .35) 0 5px 15px;
+    height: 260px;
+    position: relative;
+
 
 }
 
-.child:hover {
+
+.colprod:hover {
     transform: translateY(-10px);
 }
 
-    /* scroll */
-    ::-webkit-scrollbar{
-        width: 5px;
-    }
-    ::-webkit-scrollbar-thumb{
-        background-color: var(--mainColor_2);
-        border-radius: 50px;
-    }
-    
+
+.Lrow {
+    margin-top: 80px;
+    transition: transform 250ms;
+}
+
+.Rrow {
+    margin-top: 10px;
+    transition: transform 250ms;
+}
+
+.Rrow:hover {
+    transform: translateY(-10px);
+}
+
+.Lrow:hover {
+    transform: translateY(-10px);
+}
+
+.Rrow,
+.Lrow {
+    width: 40%;
+    height: 280px;
+    box-shadow: rgba(0, 0, 0, .35) 0 5px 15px;
+
+}
+
+.fiveHand {
+    background-color: #F8F4FC;
+}
+
+.imgcreativity {
+    background-color: #F8F4FC;
+}
+
+.numFive {
+    color: var(--mainColor_2);
+}
+
+.infoR {
+    position: absolute;
+
+    height: 20px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #F6463E;
+}
+
+.infoL {
+    position: absolute;
+
+    height: 20px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--mainColor_2);
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--mainColor_2);
+    border-radius: 50px;
+}
