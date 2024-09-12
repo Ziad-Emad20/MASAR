@@ -102,6 +102,7 @@
     transform: translateY(-10px);
   }
 
+<<<<<<< Updated upstream
 
     /* scroll */
 ::-webkit-scrollbar{
@@ -111,3 +112,6 @@
     background-color: var(--mainColor_2);
     border-radius: 50px;
 }
+=======
+  
+>>>>>>> Stashed changes
