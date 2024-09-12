@@ -263,13 +263,6 @@ header .overlay-text .btn-pdf_contact .contact-link:hover{
     list-style: none;
 }
 
-
-
-
-
-
-
-
 #sideNav {
     width: 75%;
     height: 100vh;
@@ -448,7 +441,8 @@ footer {
 .mauve-color:hover::before , .orange-color:hover:before {
     clip-path: ellipse(150% 150% at 0% 100%);
 }
-.servies .row .servies-item .mauve-color .inner-title-servise{
+.servies .row .servies-item .inner-title-servise{
+    font-weight: 700;
     transition: .5s;
 }
 .servies .row .servies-item .mauve-color:hover p,
@@ -458,19 +452,12 @@ footer {
     color: var(--mainColor_4);
 }
 
-
-
-/* .servies .row .servies-item .inner-item img {
-    width: 40px;
-    color: #F1F1F1;
-} */
 .servies .row .servies-item .inner-item p {
     color: #BEBEBE;
     font-size: 17px;
     text-align: center;
     transition: .5s;
 }
-
 
 /*conection icon*/
 
@@ -777,3 +764,13 @@ footer {
 .child:hover {
     transform: translateY(-10px);
 }
+
+    /* scroll */
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: var(--mainColor_2);
+        border-radius: 50px;
+    }
+    

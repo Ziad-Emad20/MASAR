@@ -101,3 +101,13 @@
 .details-proudact .details-img img:hover {
     transform: translateY(-10px);
   }
+
+
+    /* scroll */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--mainColor_2);
+    border-radius: 50px;
+}
