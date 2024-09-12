@@ -6,10 +6,20 @@
 }
 
 
+    
+
+
 /*who*/
 .Whotitle {
     color: var(--mainColor_2) !important;
 }
+
+.titleWho2 {
+    background-color: #F6463E;
+}
+
+
+
 
 /*hestory*/
 .hestory {
