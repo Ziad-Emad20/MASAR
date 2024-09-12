@@ -90,15 +90,14 @@
     font-weight: var(--fontWeight);
     line-height: 40px;
 }
-.details-proudact .details-img{
-    
-}
 .details-proudact .details-img img{
     width: 85%;
     border-radius: 35px;
     box-shadow: rgba(102, 102,102, .5) 5px 5px 10px;
     transition: .5s;
+    transition: transform 350ms;
 }
-.details-proudact .details-img img{
-    
-}
+
+.details-proudact .details-img img:hover {
+    transform: translateY(-10px);
+  }

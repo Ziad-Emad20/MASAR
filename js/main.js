@@ -27,7 +27,6 @@ closeSide.addEventListener('click', function () {
     sideNav.style.cssText = "transform: translateX(-100%)";
 });
 
-
 // Slide Client
 var swiperClient = new Swiper(".swiperClient", {
     slidesPerView: 5,

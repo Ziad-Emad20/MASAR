@@ -166,9 +166,9 @@ nav ul li:hover a::before {
 /* Overlay Text */
 header .overlay-text {
     position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-40%, -40%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header .overlay-text h1 {
@@ -178,16 +178,25 @@ header .overlay-text h1 {
 }
 
 header .overlay-text .btn-pdf_contact a {
-    background-color: #F6463E;
+    background-color: var(--mainColor_1);
     color: var(--mainColor_4);
     padding: 15px;
     border-radius: var(--buttonBorderRadius);
+    transition: .5s;
 }
-
+header .overlay-text .btn-pdf_contact .pdf:hover {
+    background-color: var(--mainColor_2);
+}
 header .overlay-text .btn-pdf_contact .contact-link {
     background-color: var(--mainColor_2);
     padding: 15px 28px;
+    transition: .5s;
 }
+
+header .overlay-text .btn-pdf_contact .contact-link:hover{
+    background-color: var(--mainColor_1);
+}
+
 
 
 /*=======  start who are you======*/
@@ -416,7 +425,40 @@ footer {
     margin-bottom: 1rem;
     border-radius: var(--divBorderRadius);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
 }
+/* mauve color */
+.mauve-color::before , .orange-color::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    height: 100%;
+    clip-path: ellipse(50px 50px at 0% 100%);
+    background-color: var(--mainColor_2);
+    border-radius: var(--divBorderRadius);
+    z-index: -1;
+    transition: .5s;
+}
+.orange-color::before {
+    background-color: var(--mainColor_1);
+}
+
+.mauve-color:hover::before , .orange-color:hover:before {
+    clip-path: ellipse(150% 150% at 0% 100%);
+}
+.servies .row .servies-item .mauve-color .inner-title-servise{
+    transition: .5s;
+}
+.servies .row .servies-item .mauve-color:hover p,
+.servies .row .servies-item .mauve-color:hover h5,
+.servies .row .servies-item .orange-color:hover p,
+.servies .row .servies-item .orange-color:hover h5{
+    color: var(--mainColor_4);
+}
+
+
 
 /* .servies .row .servies-item .inner-item img {
     width: 40px;
@@ -426,7 +468,9 @@ footer {
     color: #BEBEBE;
     font-size: 17px;
     text-align: center;
+    transition: .5s;
 }
+
 
 /*conection icon*/
 
