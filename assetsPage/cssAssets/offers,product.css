@@ -59,7 +59,7 @@
 }
 /* offers colors */
 .offers-colors {
-    background: linear-gradient(90deg, rgba(119,46,195,1) 2%, rgba(243,70,66,1) 100%);
+    background: linear-gradient(70deg, rgba(99, 21, 183, 0.525) 1%, rgba(243,70,66,1) 60%);
 }
 .offers-colors .container .text-offers h1,.offers-colors .discount{
     color: white;
@@ -102,7 +102,26 @@
     transform: translateY(-10px);
   }
 
-
+/* show app */
+.show-app .btn-store a{
+    background-color: var(--mainColor_1);
+    color: var(--colorWhite);
+    padding: 1rem 3rem;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 35px;
+    margin: 0 .5rem 1rem;
+    transition: .5s;
+}
+.show-app .btn-store .google-play{
+    background-color: var(--mainColor_2);
+}
+.show-app .btn-store .google-play:hover{
+    background-color: var(--mainColor_1);
+}
+.show-app .btn-store .app-store:hover{
+    background-color: var(--mainColor_2);
+}
     /* scroll */
 ::-webkit-scrollbar{
     width: 5px;
@@ -111,3 +130,6 @@
     background-color: var(--mainColor_2);
     border-radius: 50px;
 }
+
+
+
