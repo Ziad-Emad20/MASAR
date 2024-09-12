@@ -34,7 +34,7 @@
 header {
     width: 100%;
     height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/170014094459201.webp);
+    background-image: linear-gradient(rgba(79, 79, 79, 0.47), rgba(5, 5, 5, 0.511)), url(../img/backgroundAll.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -166,9 +166,9 @@ nav ul li:hover a::before {
 /* Overlay Text */
 header .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
 }
 
 header .overlay-text h1 {
