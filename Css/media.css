@@ -86,16 +86,6 @@
         padding: .5rem 4rem;
     }
 
-    /* Team Section  */
-    .team-Section .team-details {
-        justify-content: center;
-    }
-
-    .team-Section .team-details .employee-1 {
-        width: 75%;
-        margin-bottom: 2rem;
-    }
-
     /*===========*/
     .ColCcc {
         flex-wrap: wrap;
@@ -201,11 +191,6 @@
     }
 
     /* Slider Work */
-    /* Team Section  */
-    .team-Section .team-details .employee-1 {
-        width: 45%;
-        margin-bottom: 2.3rem;
-    }
 
     /*===========*/
     .ColCcc {
@@ -295,11 +280,6 @@
         margin-bottom: 3.5rem;
     }
 
-    /* team section */
-    .team-Section .team-details .employee-1 {
-        width: 45%;
-        margin-bottom: 2.5rem;
-    }
 
     .rowhestory .col-md-4 {
         width: 100%;
@@ -323,11 +303,7 @@
 /* lg */
 @media (min-width: 991px) and (max-width:1200px) {
 
-    /* team section */
-    .team-Section .team-details .employee-1 {
-        width: 30%;
-        margin-bottom: 1.9rem;
-    }
+
 
     #sideNav {
         display: none;

@@ -57,6 +57,20 @@ var swiperWork = new Swiper(".swiper-work", {
 let globalid = document.querySelector('#globalid');
 console.log(globalid);
 
+// slide team
+var swiperTeam = new Swiper(".swiper-team", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    effect: "cards",
+    grabCursor: true,
+  });
+
+
+
 
 // // navTaps
 

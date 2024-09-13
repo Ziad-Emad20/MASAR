@@ -634,18 +634,19 @@ footer {
 
 /* +++++ end slide +++++ */
 /* Team Section */
-.team-Section .team-details {
+/* .team-Section .team-details {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
 .team-Section .team-details .employee-1 {
-    width: 23%;
+    width: 100%;
     padding: 1rem;
     margin: .4rem;
-    box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.553);
+    /* box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.553); */
     border-radius: var(--divBorderRadius);
+    background-color: white;
 }
 
 .team-Section .team-details .employee-1 img {
@@ -664,6 +665,23 @@ footer {
 .team-Section .team-details .details .fa-linkedin:hover {
     color: #2864AA;
 }
+
+.swiper-team {
+    width: 300px;
+    height: 400px;
+}
+
+.swiper-team .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
 
 /* End Team Section */
 /* swiper slide */
