@@ -459,7 +459,9 @@ footer {
 .servies .row .servies-item .orange-color:hover h5 {
     color: var(--mainColor_4);
 }
-
+.servies .row .servies-item a{
+    color: #4F4F4F;
+}
 .servies .row .servies-item .inner-item p {
     color: #BEBEBE;
     font-size: 17px;
