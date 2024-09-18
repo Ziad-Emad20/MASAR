@@ -20,7 +20,9 @@
     --divBorderRadius: 10px;
 }
 
-
+.Phoneindex {
+    bottom : 5rem !important;
+}
 
 * {
     margin: 0;
@@ -488,9 +490,7 @@ footer {
 .PhoneIcon {
     cursor: pointer;
 }
-.Phoneindex {
-    bottom : 2rem !important;
-}
+
 
 
 
