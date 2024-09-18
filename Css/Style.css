@@ -652,9 +652,9 @@ footer {
 } */
 
 .team-Section .team-details .employee-1 {
-    width: 100%;
-/*     padding: 1rem;
-    margin: .4rem; */
+    width: 80%;
+    padding: 1rem;
+  
     /* box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.553); */
     border-radius: var(--divBorderRadius);
     background-color: white;
