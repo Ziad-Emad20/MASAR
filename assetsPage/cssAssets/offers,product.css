@@ -3,6 +3,10 @@
     --colorWhite: #ffffff;
 }
 
+a {
+     text-decoration: none;
+}
+
 /* all offers style */
 #header-offers {
     height: 75vh;
