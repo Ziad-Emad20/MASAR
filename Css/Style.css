@@ -20,6 +20,8 @@
     --divBorderRadius: 10px;
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -486,6 +488,11 @@ footer {
 .PhoneIcon {
     cursor: pointer;
 }
+.Phoneindex {
+    bottom: 10px
+}
+
+
 
 .Phoneindex,
 .whatsappindex {
