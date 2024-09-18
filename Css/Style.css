@@ -28,7 +28,9 @@
     font-family: "Cairo", sans-serif;
 }
 
-
+a {
+     text-decoration: none;
+}
 
 /* Start Header */
 header {
